@@ -4,7 +4,7 @@ stage('Init') {
     def result
     nodejs(nodeJSInstallationName: 'node 8 latest') {
       sh 'npm install --production'
-      result = sh script:'npm start', returnStdout:true
+      result = sh script:'npm start'
       currentBuild.description = result.trim()
     }
   }
