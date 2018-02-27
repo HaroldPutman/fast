@@ -6,7 +6,8 @@
   "scripts": {
     "start": "fast"
   },
-  "author": "",
+  "repository": "https://github.com/HaroldPutman/fast.git",
+  "author": "Harold Putman",
   "license": "ISC",
   "dependencies": {
     "fast-cli": "^2.1.0"
