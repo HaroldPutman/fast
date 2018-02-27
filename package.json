@@ -1,0 +1,14 @@
+{
+  "name": "fast",
+  "version": "1.0.0",
+  "description": "Run fast to check internet speed",
+  "main": "index.js",
+  "scripts": {
+    "start": "fast"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-cli": "^2.1.0"
+  }
+}
